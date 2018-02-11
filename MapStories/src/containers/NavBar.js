@@ -50,7 +50,7 @@ class NavBar extends Component {
           ? (
             <div className="LoggedInActions">
               {pathname === '/' ? <Search passQuery={this.handleSearching}/> : null}
-              <img className="ProfilePic" src={picture} alt="profilePic"/>
+              {/* <img className="ProfilePic" src={picture} alt="profilePic"/> */}
               <Logged handleSignOut={this.handleSignOut}/>
             </div>
           ) : (
